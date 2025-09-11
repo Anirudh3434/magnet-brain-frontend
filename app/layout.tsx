@@ -11,7 +11,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "TaskFlow - Task Management App",
   description: "Professional task management application for enhanced productivity",
-  generator: "v0.app",
+  generator: "Anirudh",
 }
 
 export default function RootLayout({
