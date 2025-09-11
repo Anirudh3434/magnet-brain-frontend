@@ -34,7 +34,7 @@ export function TaskFilters({
             className="pl-10"
           />
         </div>
-
+{/* 
         <Select value={statusFilter} onValueChange={onStatusFilterChange}>
           <SelectTrigger className="w-full sm:w-[180px]">
             <Filter className="mr-2 h-4 w-4" />
@@ -45,7 +45,7 @@ export function TaskFilters({
             <SelectItem value="pending">Pending</SelectItem>
             <SelectItem value="completed">Completed</SelectItem>
           </SelectContent>
-        </Select>
+        </Select> */}
       </div>
 
      { role === "admin" && <Button onClick={onCreateTask} className="w-full sm:w-auto">
